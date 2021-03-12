@@ -8,30 +8,70 @@
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>    
     <title>Lucas Fagundes Vaz</title>
+    <style>
+        body, html{
+            height: 50%;
+            margin: 0;
+        }
+        .bg{
+            /* The image used */
+            background-image: url("assets/ti.jpg");
+
+            /* Full height */
+            height: 100%; 
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
-<body>    
+<body>
+    <div class="bg"></div>    
       <div class="container">
-        <div class=".bg-light">
-          <h1>My First Bootstrap Page</h1>
-          <p>Resize this responsive page to see the effect!</p> 
+        <div class="shadow p-1 mb-3 bg-light rounded text-center">
+          <img class="thumbnail img-responsive" style="max-width:15%;" src="assets/lucas-photo.png" alt="">
+          <h1 >Lucas Fagundes</h1>
+          <p>Analista de Sistemas</p> 
         </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 3</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
+        <div class="p-1 row bg-white">
+            <div class="row">
+                <div class="col-sm-4 mb-3">
+                  <div class="card text-center">
+                    <img class="card-img-top mx-auto" style="max-width: 50%;" src="assets/logo-curriculo-lattes.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Currículo</h5>
+                      <p class="card-text">Saiba mais sobre minha vida acadêmica, profissional e conquistas.</p>
+                      <a href="http://lattes.cnpq.br/5298020657413006" target="_blank" class="btn btn-primary">Visitar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-3">
+                  <div class="card text-center">
+                    <img class="card-img-top mx-auto" style="max-width: 50%;" src="assets/github.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">GitHub</h5>
+                      <p class="card-text">Fique por dentro do que tenho desenvolvido.</p>
+                      <a href="https://github.com/lucasfv1" target="_blank" class="btn btn-primary">Visitar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-3">
+                    <div class="card text-center">
+                        <img class="card-img-top mx-auto" style="max-width: 50%;" src="assets/youtube.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Youtube</h5>
+                        <p class="card-text">Eu também tenho um canal de vídeo onde toco alguns projetos.</p>
+                        <a href="https://www.youtube.com/channel/UCN0xtkhf8j2R6n1xKYCiJBA" target="_blank" class="btn btn-primary">Visitar</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
         </div>
-      </div>
+
+        
+    
 </body>
 </html>
